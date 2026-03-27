@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Démarrage de l'application Spring Boot..."
+
+mkdir -p logs
+
+nohup mvn spring-boot:run > logs/app.log 2>&1 &
+echo $! > logs/app.pid
+
+echo "Application démarrée avec succès (PID : $!)"

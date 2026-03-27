@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< ma.ens:springbash >--------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.13:run (default-cli) > test-compile @ springbash >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ springbash ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ springbash ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ springbash ---
+[INFO] skip non existing resourceDirectory C:\Users\SEL-OUMA\OneDrive\Desktop\springboot\TP14\springbash\springbash\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ springbash ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.13:run (default-cli) < test-compile @ springbash <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.13:run (default-cli) @ springbash ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.13)
+
+2026-03-27T12:29:24.158+01:00  INFO 20372 --- [           main] m.ens.springbash.SpringbashApplication   : Starting SpringbashApplication using Java 17.0.12 with PID 20372 (C:\Users\SEL-OUMA\OneDrive\Desktop\springboot\TP14\springbash\springbash\target\classes started by SEL-OUMA in C:\Users\SEL-OUMA\OneDrive\Desktop\springboot\TP14\springbash\springbash)
+2026-03-27T12:29:24.164+01:00  INFO 20372 --- [           main] m.ens.springbash.SpringbashApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-27T12:29:26.191+01:00  INFO 20372 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-27T12:29:26.258+01:00  INFO 20372 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 JPA repository interfaces.
+2026-03-27T12:29:27.651+01:00  INFO 20372 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2026-03-27T12:29:27.684+01:00  INFO 20372 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-27T12:29:27.684+01:00  INFO 20372 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-03-27T12:29:27.840+01:00  INFO 20372 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-27T12:29:27.843+01:00  INFO 20372 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3575 ms
+2026-03-27T12:29:28.462+01:00  INFO 20372 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-27T12:29:28.602+01:00  INFO 20372 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-03-27T12:29:28.700+01:00  INFO 20372 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-27T12:29:29.829+01:00  INFO 20372 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-27T12:29:29.897+01:00  INFO 20372 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-27T12:29:30.265+01:00  INFO 20372 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-27T12:29:30.267+01:00  INFO 20372 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-27T12:29:30.359+01:00  INFO 20372 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-27T12:29:31.084+01:00  INFO 20372 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-27T12:29:31.103+01:00  INFO 20372 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-27T12:29:31.253+01:00  WARN 20372 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-27T12:29:31.759+01:00  WARN 20372 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-03-27T12:29:32.313+01:00  INFO 20372 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-27T12:29:32.508+01:00  INFO 20372 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2026-03-27T12:29:32.574+01:00  INFO 20372 --- [           main] m.ens.springbash.SpringbashApplication   : Started SpringbashApplication in 9.464 seconds (process running for 10.457)
+2026-03-27T12:29:32.787+01:00  INFO 20372 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-27T12:29:32.788+01:00  INFO 20372 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-27T12:29:32.791+01:00  INFO 20372 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
